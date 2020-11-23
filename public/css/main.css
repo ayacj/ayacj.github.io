@@ -21,6 +21,7 @@ html, body {
 .app-wrap.main .app-container .app-header .items .tab {
   position: relative;
   padding: 0 20px;
+  box-sizing: border-box;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .app-wrap.main .app-container .app-header .items .tab::after {
@@ -52,10 +53,6 @@ html, body {
   font-size: 50px;
   color: rgba(255, 255, 255, 0.548);
 }
-.app-wrap.main .app-container .app-header .items .tab .fa-facebook-square {
-  font-size: 50px;
-  color: rgba(255, 255, 255, 0.548);
-}
 .app-wrap.main .app-container .app-header .items .tab.active:after {
   opacity: 1;
   top: 150%;
@@ -68,6 +65,12 @@ html, body {
 }
 .app-wrap.main .app-container .app-header .items .tab:hover .fas, .app-wrap.main .app-container .app-header .items .tab:hover .fab {
   color: #fff;
+}
+.app-wrap.main .app-container .app-header .items .fa-facebook-square {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.548);
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 .app-wrap.main .app-container .app-main {
   width: 100%;
