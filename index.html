@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/reset.css">
+    <link rel="stylesheet" href="/public/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/0ee600ef77.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="app-wrap main">
+        <div class="app-container">
+            <div class="app-header">
+                <nav class="nav">
+                    <ul class="items">
+                        <li class="tab"><a href="#app-home"><i class="fas fa-home"></i></a></li>
+                        <li class="tab"><a href="#app-photo"><i class="fas fa-image"></i></a></li>
+                        <li class="tab"><a href="#app-contact"><i class="fas fa-envelope"></i></a></li>
+                        <li class="tab"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="app-main">
+                <div class="app-inner">
+                    <div id="app-home" class="block active">
+                        <div class="home-title">
+                            <h1>Aya C</h1>
+                            <p>Troupe of little vagrants of the world, leave your footprints in my words.</p>
+                        </div>
+                        <img src="/public/images/IMG_2969.PNG">
+                    </div>
+                    
+                    <div id="app-photo" class="block">
+                        <div class="photo-title">
+                            <h1>Photo</h1>
+                            <p>One is always on a strange road, watching strange scenery and listeningto strange music、 Then one day, you will find that the things you tryhard to forget are already gone.</p>
+                        </div>
+                        <div class="app-cont">
+                            <div class="app-col">
+                                <img src="/public/images/photo_01.png">
+                            </div>
+                            <div class="app-col">
+                                <img src="/public/images/photo_02.png">
+                            </div>
+                            <div class="app-col">
+                                <img src="/public/images/photo_03.png">
+                            </div>
+                            <div class="app-col">
+                                <img src="/public/images/photo_04.png">
+                            </div>
+                            <div class="app-col">
+                                <img src="/public/images/photo_05.png">
+                            </div>
+                            <div class="app-col">
+                                <img src="/public/images/photo_06.png">
+                            </div>
+                            <div class="app-col">
+                                <img src="/public/images/photo_07.png">
+                            </div>
+                            <div class="app-col">
+                                <img src="/public/images/photo_08.png">
+                            </div>
+                            <div class="app-col">
+                                <img src="/public/images/photo_08.png">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="app-contact" class="block">
+                        <h1>Contact Me</h1>
+                        <div class="contact-inner">
+                            <form action="送出目的地" method="資料傳送方式">
+                                <input class="in" type="text" placeholder="Name" name="欄位名稱">
+                                <input class="ie" type="text" placeholder="Email" name="欄位名稱">
+                            </form>
+                            <form action="送出目的地" method="資料傳送方式">
+                                <input class="icn" type="text" placeholder="Contact number" name="欄位名稱">
+                            </form>
+                            <form action="送出目的地" method="資料傳送方式">
+                                <input class="im" type="text" placeholder="Message" name="欄位名稱">
+                            </form>
+                            <form action="送出目的地" method="資料傳送方式">
+                                <input type="button" value="Send Message" class="but">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function(){
+            $(".tab").on("click", function(e){
+                $(this).addClass("active").siblings(".tab").removeClass("active")
+                e.preventDefault();
+                let target = $(this).find("a").attr("href");
+                $(".block").hide();
+                console.log(target)
+                $(target).show();
+            })
+
+        });
+      
+    </script>
+    
+</body>
+</html>
