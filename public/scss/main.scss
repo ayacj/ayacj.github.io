@@ -69,11 +69,13 @@ html,body{
                         }
                     }
                 }
-                .fa-facebook-square{
-                    font-size: 50px;
-                    color:rgba(255, 255, 255, 0.548);
-                    padding-left: 20px;
-                    box-sizing: border-box;
+                .item{
+                    .fa-facebook-square{
+                        font-size: 50px;
+                        color:rgba(255, 255, 255, 0.548);
+                        padding-left: 20px;
+                        box-sizing: border-box;
+                    }
                 }
             }
         }

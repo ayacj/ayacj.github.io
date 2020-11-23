@@ -66,7 +66,7 @@ html, body {
 .app-wrap.main .app-container .app-header .items .tab:hover .fas, .app-wrap.main .app-container .app-header .items .tab:hover .fab {
   color: #fff;
 }
-.app-wrap.main .app-container .app-header .items .fa-facebook-square {
+.app-wrap.main .app-container .app-header .items .item .fa-facebook-square {
   font-size: 50px;
   color: rgba(255, 255, 255, 0.548);
   padding-left: 20px;
