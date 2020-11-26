@@ -29,8 +29,8 @@
                         <div class="home-title">
                             <h1>Aya C</h1>
                             <p>Troupe of little vagrants of the world, leave your footprints in my words.</p>
+                            <img class="logo" src="public/images/home.png">
                         </div>
-                        <img src="public/images/home.png">
                     </div>
                     
                     <div id="app-photo" class="block">
@@ -100,7 +100,7 @@
                 let target = $(this).find("a").attr("href");
                 $(".block").hide();
                 console.log(target)
-                $(target).show();
+                $(target).slideDown();
             })
 
         });

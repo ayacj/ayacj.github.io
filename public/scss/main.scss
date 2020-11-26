@@ -93,6 +93,7 @@ html,body{
                     width: 100%;
                     line-height:400px;
                     background-color: rgb(255, 255, 255);
+                    position: relative;
                     .home-title{
                         display: inline-block;
                         height: auto;
@@ -105,14 +106,15 @@ html,body{
                         p{
                             color: rgb(161, 161, 161);
                         }
-                    }
-                    img{
-                        position: absolute;
-                        right: 0;
-                        top:0;
-                        vertical-align: bottom;
-                    }
+                        .logo{
+                            position: absolute;
+                            right: 0;
+                            top:0;
+                            vertical-align: bottom;
+                        } 
+                    } 
                 }
+                
             }
         }
 
@@ -210,7 +212,7 @@ html,body{
                 color:#fff;
             }
             &:-ms-input-placeholder{
-                color:#fff;
+                color:rgb(255, 255, 255);
             }
         }
     }
@@ -218,8 +220,11 @@ html,body{
 
 .block {
     display: none;
+    
 }
 
 .active{
     display: block;
 }
+
+

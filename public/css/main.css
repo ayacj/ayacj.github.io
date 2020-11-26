@@ -87,6 +87,7 @@ html, body {
   width: 100%;
   line-height: 400px;
   background-color: white;
+  position: relative;
 }
 .app-wrap.main .app-container .app-main .app-inner #app-home .home-title {
   display: inline-block;
@@ -101,7 +102,7 @@ html, body {
 .app-wrap.main .app-container .app-main .app-inner #app-home .home-title p {
   color: #a1a1a1;
 }
-.app-wrap.main .app-container .app-main .app-inner #app-home img {
+.app-wrap.main .app-container .app-main .app-inner #app-home .home-title .logo {
   position: absolute;
   right: 0;
   top: 0;
@@ -199,7 +200,7 @@ html, body {
   color: #fff;
 }
 .app-wrap.main .app-container input:-ms-input-placeholder {
-  color: #fff;
+  color: white;
 }
 
 .block {
