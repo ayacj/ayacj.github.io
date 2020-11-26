@@ -37,6 +37,7 @@ html, body {
   right: 0;
   margin: 0 auto;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: 1;
 }
 .app-wrap.main .app-container .app-header .items .tab .fas {
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
@@ -80,7 +81,7 @@ html, body {
 .app-wrap.main .app-container .app-main .app-inner {
   position: relative;
   width: 50%;
-  margin: 20px auto 60px auto;
+  margin: 20px auto 25px auto;
   background-color: white;
   box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126), 0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224), 0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px rgba(0, 0, 0, 0.4);
 }
@@ -161,7 +162,6 @@ html, body {
 }
 .app-wrap.main .app-container #app-contact .contact-inner .in, .app-wrap.main .app-container #app-contact .contact-inner .ie {
   width: 47%;
-  color: #fff;
 }
 .app-wrap.main .app-container #app-contact .contact-inner .icn {
   width: 97%;
@@ -179,6 +179,10 @@ html, body {
   cursor: pointer;
   padding: 20px 50px;
   color: #777777;
+}
+.app-wrap.main .app-container #app-contact .contact-inner .but:hover {
+  background: #1c5f5c;
+  color: #fff;
 }
 .app-wrap.main .app-container input {
   margin: 10px 10px;
@@ -203,7 +207,11 @@ html, body {
 .app-wrap.main .app-container input:-ms-input-placeholder {
   color: white;
 }
-.app-wrap.main .app-container .app-footer P {
+.app-wrap.main .app-container .app-footer {
+  width: 100%;
+  height: 40px;
+}
+.app-wrap.main .app-container .app-footer .footer-text P {
   text-align: center;
   color: rgba(204, 204, 204, 0.418);
 }
