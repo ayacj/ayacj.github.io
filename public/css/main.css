@@ -202,6 +202,10 @@ html, body {
 .app-wrap.main .app-container input:-ms-input-placeholder {
   color: white;
 }
+.app-wrap.main .app-container .app-footer P {
+  text-align: center;
+  color: rgba(204, 204, 204, 0.418);
+}
 
 .block {
   display: none;

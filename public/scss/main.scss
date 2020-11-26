@@ -215,6 +215,12 @@ html,body{
                 color:rgb(255, 255, 255);
             }
         }
+        .app-footer{
+            P{
+                text-align: center;
+                color:rgba(204, 204, 204, 0.418);
+            }
+        }
     }
 }
 
@@ -226,5 +232,6 @@ html,body{
 .active{
     display: block;
 }
+
 
 
