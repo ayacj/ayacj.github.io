@@ -174,15 +174,14 @@ html,body{
             .contact-inner{
                 width: 90%;
                 margin: 0 auto;
-                .in,.ie{
-                    width: 47%; 
-                }
-                .icn{
-                    width: 97%;
-                }
-                .im{
-                    width: 97%;
-                }
+                .form-group{
+                    width: 100%;
+                    &.inline{
+                        margin-left: -2px;
+                        display: inline-block;
+                        width: 50%;
+                    }
+                }    
                 .placeholder{
                     color: #fff;
                 }
@@ -192,6 +191,7 @@ html,body{
                     height: 50px;
                     cursor:pointer;
                     padding: 20px 50px;
+                    box-sizing: border-box;
                     color:#777777;
                     &:hover{
                      background:rgb(28, 95, 92);
@@ -205,6 +205,7 @@ html,body{
             background:rgba(221, 221, 221, 0.747); 
             border:0 none;
             height: 50px;
+            width: 100%;
             cursor:pointer;
             -webkit-border-radius: 5px;
             border-radius: 5px;

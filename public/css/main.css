@@ -160,14 +160,13 @@ html, body {
   width: 90%;
   margin: 0 auto;
 }
-.app-wrap.main .app-container #app-contact .contact-inner .in, .app-wrap.main .app-container #app-contact .contact-inner .ie {
-  width: 47%;
+.app-wrap.main .app-container #app-contact .contact-inner .form-group {
+  width: 100%;
 }
-.app-wrap.main .app-container #app-contact .contact-inner .icn {
-  width: 97%;
-}
-.app-wrap.main .app-container #app-contact .contact-inner .im {
-  width: 97%;
+.app-wrap.main .app-container #app-contact .contact-inner .form-group.inline {
+  margin-left: -2px;
+  display: inline-block;
+  width: 50%;
 }
 .app-wrap.main .app-container #app-contact .contact-inner .placeholder {
   color: #fff;
@@ -178,6 +177,7 @@ html, body {
   height: 50px;
   cursor: pointer;
   padding: 20px 50px;
+  box-sizing: border-box;
   color: #777777;
 }
 .app-wrap.main .app-container #app-contact .contact-inner .but:hover {
@@ -189,6 +189,7 @@ html, body {
   background: rgba(221, 221, 221, 0.747);
   border: 0 none;
   height: 50px;
+  width: 100%;
   cursor: pointer;
   border-radius: 5px;
   font-size: 17px;
