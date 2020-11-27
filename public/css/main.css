@@ -80,7 +80,7 @@ html, body {
 }
 .app-wrap.main .app-container .app-main .app-inner {
   position: relative;
-  width: 50%;
+  width: 55%;
   margin: 20px auto 25px auto;
   background-color: white;
   box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126), 0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224), 0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px rgba(0, 0, 0, 0.4);
@@ -95,9 +95,10 @@ html, body {
   height: 100%;
 }
 .app-wrap.main .app-container .app-main .app-inner #app-home .home-text .title {
+  height: 100%;
   display: table-cell;
   vertical-align: middle;
-  padding-left: 20px;
+  padding: 0 50px;
   box-sizing: border-box;
 }
 .app-wrap.main .app-container .app-main .app-inner #app-home .home-text .title h1 {
@@ -106,10 +107,9 @@ html, body {
 .app-wrap.main .app-container .app-main .app-inner #app-home .home-text .title p {
   color: #a1a1a1;
 }
-.app-wrap.main .app-container .app-main .app-inner #app-home .home-text .logo img {
-  position: absolute;
-  vertical-align: bottom;
-  right: 0;
+.app-wrap.main .app-container .app-main .app-inner #app-home .home-text .logo {
+  padding-left: 120px;
+  box-sizing: border-box;
 }
 .app-wrap.main .app-container #app-photo {
   width: 100%;

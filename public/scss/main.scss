@@ -87,7 +87,7 @@ html,body{
             box-sizing: border-box;
             .app-inner{
                 position:relative;
-                width: 50%;
+                width: 55%;
                 margin: 20px auto 25px auto;
                 background-color: rgb(255, 255, 255);
                 box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126), 
@@ -103,9 +103,10 @@ html,body{
                         display: table;
                         height: 100%;
                         .title{
+                            height: 100%;
                             display:table-cell; 
                             vertical-align:middle; 
-                            padding-left: 20px;
+                            padding: 0 50px;
                             box-sizing: border-box;
                             h1{
                                 font-size: 40px;                        
@@ -115,11 +116,8 @@ html,body{
                             }
                         }
                         .logo {
-                            img{
-                                position: absolute;
-                                vertical-align: bottom;
-                                right: 0;
-                            }
+                            padding-left: 120px;
+                            box-sizing: border-box;
                         } 
                     } 
                 }
