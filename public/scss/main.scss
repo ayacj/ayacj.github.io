@@ -97,26 +97,29 @@ html,body{
                             0 10px 20px rgba(0, 0, 0, 0.4);        
                 #app-home{
                     width: 100%;
-                    line-height:400px;
-                    background-color: rgb(255, 255, 255);
-                    position: relative;
-                    .home-title{
-                        display: inline-block;
-                        height: auto;
-                        line-height:2;
-                        padding-left: 20px;
-                        box-sizing: border-box;
-                        h1{
-                            font-size: 40px;                        
+                    height: 400px;
+                    .home-text{
+                        display: flex;
+                        display: table;
+                        height: 100%;
+                        .title{
+                            display:table-cell; 
+                            vertical-align:middle; 
+                            padding-left: 20px;
+                            box-sizing: border-box;
+                            h1{
+                                font-size: 40px;                        
+                            }
+                            p{
+                                color: rgb(161, 161, 161);
+                            }
                         }
-                        p{
-                            color: rgb(161, 161, 161);
-                        }
-                        .logo{
-                            position: absolute;
-                            right: 0;
-                            top:0;
-                            vertical-align: bottom;
+                        .logo {
+                            img{
+                                position: absolute;
+                                vertical-align: bottom;
+                                right: 0;
+                            }
                         } 
                     } 
                 }

@@ -87,28 +87,29 @@ html, body {
 }
 .app-wrap.main .app-container .app-main .app-inner #app-home {
   width: 100%;
-  line-height: 400px;
-  background-color: white;
-  position: relative;
+  height: 400px;
 }
-.app-wrap.main .app-container .app-main .app-inner #app-home .home-title {
-  display: inline-block;
-  height: auto;
-  line-height: 2;
+.app-wrap.main .app-container .app-main .app-inner #app-home .home-text {
+  display: flex;
+  display: table;
+  height: 100%;
+}
+.app-wrap.main .app-container .app-main .app-inner #app-home .home-text .title {
+  display: table-cell;
+  vertical-align: middle;
   padding-left: 20px;
   box-sizing: border-box;
 }
-.app-wrap.main .app-container .app-main .app-inner #app-home .home-title h1 {
+.app-wrap.main .app-container .app-main .app-inner #app-home .home-text .title h1 {
   font-size: 40px;
 }
-.app-wrap.main .app-container .app-main .app-inner #app-home .home-title p {
+.app-wrap.main .app-container .app-main .app-inner #app-home .home-text .title p {
   color: #a1a1a1;
 }
-.app-wrap.main .app-container .app-main .app-inner #app-home .home-title .logo {
+.app-wrap.main .app-container .app-main .app-inner #app-home .home-text .logo img {
   position: absolute;
-  right: 0;
-  top: 0;
   vertical-align: bottom;
+  right: 0;
 }
 .app-wrap.main .app-container #app-photo {
   width: 100%;
