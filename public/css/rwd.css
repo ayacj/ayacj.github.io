@@ -1,0 +1,29 @@
+@media screen and (max-width: 780px) {
+  .app-wrap.main .app-container .app-main .app-inner {
+    width: 70%;
+  }
+  .app-wrap.main .app-container .app-main .app-inner #app-home {
+    height: auto;
+    display: block;
+  }
+  .app-wrap.main .app-container .app-main .app-inner #app-home .text {
+    display: block;
+    text-align: center;
+    height: 200px;
+  }
+  .app-wrap.main .app-container .app-main .app-inner #app-home .text h1 {
+    padding-top: 60px;
+    box-sizing: border-box;
+  }
+  .app-wrap.main .app-container .app-main .app-inner #app-home .text p {
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+  .app-wrap.main .app-container .app-main .app-inner #app-home img {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-position: center;
+    object-fit: cover;
+  }
+}
