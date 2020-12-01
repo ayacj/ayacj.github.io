@@ -134,6 +134,7 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
 }
 .app-wrap.main .app-container #app-photo .app-cont .app-col {
   width: 250px;
