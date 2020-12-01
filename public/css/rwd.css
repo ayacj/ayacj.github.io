@@ -61,10 +61,20 @@
   .app-wrap.main .app-container .app-header .items .tab {
     padding: 0 12px;
   }
-  .app-wrap.main .app-container .app-header .item .fa-facebook-square {
-    padding-left: 12px;
+  .app-wrap.main .app-container .app-header .items .item .fa-facebook-square {
+    padding-left: 10px;
   }
   .app-wrap.main .app-container .app-main .app-inner {
     width: 100%;
+  }
+  .app-wrap.main .app-container #app-contact .contact-inner {
+    margin: 0 auto;
+  }
+  .app-wrap.main .app-container #app-contact .contact-inner .form-group.inline {
+    margin-left: 0;
+    width: 100%;
+  }
+  .app-wrap.main .app-container input {
+    margin: 10px 0;
   }
 }

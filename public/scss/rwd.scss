@@ -111,17 +111,33 @@
                     .tab{
                        padding:0 12px;
                     }
-                }
-                .item{
-                    .fa-facebook-square{
-                        padding-left: 12px;
+                    .item{
+                        .fa-facebook-square{
+                            padding-left: 10px;
+                        }
                     }
                 }
+                
             }
             .app-main{
                 .app-inner{
                     width: 100%;
                 }
+            }
+
+            #app-contact{
+                .contact-inner{
+                    margin: 0 auto;
+                    .form-group{
+                        &.inline{
+                            margin-left: 0;
+                            width: 100%;
+                        }
+                    }                      
+                }
+            }
+            input{
+                margin: 10px 0;
             }
         }
     }
