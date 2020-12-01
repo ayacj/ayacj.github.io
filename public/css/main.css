@@ -41,18 +41,22 @@ html, body {
 }
 .app-wrap.main .app-container .app-header .items .tab .fas {
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  cursor: pointer;
 }
 .app-wrap.main .app-container .app-header .items .tab .fa-home {
   font-size: 40px;
   color: rgba(255, 255, 255, 0.548);
+  cursor: pointer;
 }
 .app-wrap.main .app-container .app-header .items .tab .fa-image {
   font-size: 40px;
   color: rgba(255, 255, 255, 0.548);
+  cursor: pointer;
 }
 .app-wrap.main .app-container .app-header .items .tab .fa-envelope {
   font-size: 40px;
   color: rgba(255, 255, 255, 0.548);
+  cursor: pointer;
 }
 .app-wrap.main .app-container .app-header .items .tab.active:after {
   opacity: 1;
