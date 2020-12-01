@@ -11,7 +11,7 @@ html, body {
   margin: 0 auto;
 }
 .app-wrap.main .app-container .app-header {
-  padding-top: 150px;
+  padding-top: 80px;
   box-sizing: border-box;
 }
 .app-wrap.main .app-container .app-header .items {
@@ -43,20 +43,20 @@ html, body {
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .app-wrap.main .app-container .app-header .items .tab .fa-home {
-  font-size: 50px;
+  font-size: 40px;
   color: rgba(255, 255, 255, 0.548);
 }
 .app-wrap.main .app-container .app-header .items .tab .fa-image {
-  font-size: 50px;
+  font-size: 40px;
   color: rgba(255, 255, 255, 0.548);
 }
 .app-wrap.main .app-container .app-header .items .tab .fa-envelope {
-  font-size: 50px;
+  font-size: 40px;
   color: rgba(255, 255, 255, 0.548);
 }
 .app-wrap.main .app-container .app-header .items .tab.active:after {
   opacity: 1;
-  top: 150%;
+  top: 164%;
 }
 .app-wrap.main .app-container .app-header .items .tab.active .fa-home,
 .app-wrap.main .app-container .app-header .items .tab.active .fa-image,
@@ -68,7 +68,7 @@ html, body {
   color: #fff;
 }
 .app-wrap.main .app-container .app-header .items .item .fa-facebook-square {
-  font-size: 50px;
+  font-size: 40px;
   color: rgba(255, 255, 255, 0.548);
   padding-left: 20px;
   box-sizing: border-box;
@@ -91,7 +91,7 @@ html, body {
   height: 400px;
 }
 .app-wrap.main .app-container #app-home .text {
-  padding-left: 10px;
+  padding: 0 10px;
   box-sizing: border-box;
   display: table-cell;
   vertical-align: middle;
@@ -101,6 +101,8 @@ html, body {
 }
 .app-wrap.main .app-container #app-home .text p {
   color: #a1a1a1;
+  padding-top: 10px;
+  box-sizing: border-box;
 }
 .app-wrap.main .app-container #app-home img {
   position: absolute;

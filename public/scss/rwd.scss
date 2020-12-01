@@ -1,3 +1,25 @@
+@media screen and (max-width: 1124px){
+    .app-wrap.main{
+        .app-container{
+            .app-main{
+                .app-inner{
+                    width: 75%;
+                }
+            }
+           
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 780px){
     .app-wrap.main{
@@ -17,7 +39,9 @@
                                 box-sizing: border-box;
                             }
                             p{
+                                width: 100%;
                                 padding-top: 20px;
+                                text-align: center;
                                 box-sizing: border-box;
                             }
                         }
@@ -36,6 +60,61 @@
     }
 
     
+}
 
-    
+
+@media screen and (max-width: 480px){
+    .app-wrap.main{
+        .app-container{
+            .app-header{
+                .items{
+                    .tab{
+                        .fa-home{
+                            font-size: 40px;
+                            color:rgba(255, 255, 255, 0.548);
+                        }
+                        .fa-image{
+                            font-size: 40px;
+                            color:rgba(255, 255, 255, 0.548);
+                        }
+                        .fa-envelope{
+                            font-size: 40px;
+                            color:rgba(255, 255, 255, 0.548);
+                        }
+                    }
+                }
+            }
+            .app-main{
+                .app-inner{
+                    width: 95%;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .app-wrap.main{
+        .app-container{
+            .app-header{
+                .items{
+                    .tab{
+                       padding:0 12px;
+                    }
+                }
+                .item{
+                    .fa-facebook-square{
+                        padding-left: 12px;
+                    }
+                }
+            }
+            .app-main{
+                .app-inner{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
 }

@@ -11,7 +11,7 @@ html,body{
     margin: 0 auto;
     .app-container{
         .app-header{
-            padding-top: 150px;
+            padding-top: 80px;
             box-sizing: border-box;
             .items{
                 display: flex;
@@ -39,15 +39,15 @@ html,body{
                         transition: all .4s cubic-bezier(0.23, 1, 0.32, 1);
                      }  
                     .fa-home{
-                        font-size: 50px;
+                        font-size: 40px;
                         color:rgba(255, 255, 255, 0.548);
                     }
                     .fa-image{
-                        font-size: 50px;
+                        font-size: 40px;
                         color:rgba(255, 255, 255, 0.548);
                     }
                     .fa-envelope{
-                        font-size: 50px;
+                        font-size: 40px;
                         color:rgba(255, 255, 255, 0.548);
                     }
                    
@@ -55,7 +55,7 @@ html,body{
                     &.active{
                         &:after{
                             opacity: 1;
-                            top: 150%;
+                            top: 164%;
                         }
                         .fa-home,
                         .fa-image,
@@ -72,7 +72,7 @@ html,body{
                 }
                 .item{
                     .fa-facebook-square{
-                        font-size: 50px;
+                        font-size: 40px;
                         color:rgba(255, 255, 255, 0.548);
                         padding-left: 20px;
                         box-sizing: border-box;
@@ -103,7 +103,7 @@ html,body{
             width: 100%;
             height: 400px;
             .text{
-                padding-left: 10px;
+                padding: 0 10px;
                 box-sizing: border-box;
                 display:table-cell; 
                 vertical-align:middle; 
@@ -112,6 +112,8 @@ html,body{
                 }
                 p{
                     color: rgb(161, 161, 161);
+                    padding-top: 10px;
+                    box-sizing: border-box;
                 }
             }
             img{

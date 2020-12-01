@@ -1,3 +1,8 @@
+@media screen and (max-width: 1124px) {
+  .app-wrap.main .app-container .app-main .app-inner {
+    width: 75%;
+  }
+}
 @media screen and (max-width: 780px) {
   .app-wrap.main .app-container .app-main .app-inner {
     width: 70%;
@@ -16,7 +21,9 @@
     box-sizing: border-box;
   }
   .app-wrap.main .app-container .app-main .app-inner #app-home .text p {
+    width: 100%;
     padding-top: 20px;
+    text-align: center;
     box-sizing: border-box;
   }
   .app-wrap.main .app-container .app-main .app-inner #app-home img {
@@ -25,5 +32,33 @@
     height: 400px;
     object-position: center;
     object-fit: cover;
+  }
+}
+@media screen and (max-width: 480px) {
+  .app-wrap.main .app-container .app-header .items .tab .fa-home {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.548);
+  }
+  .app-wrap.main .app-container .app-header .items .tab .fa-image {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.548);
+  }
+  .app-wrap.main .app-container .app-header .items .tab .fa-envelope {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.548);
+  }
+  .app-wrap.main .app-container .app-main .app-inner {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .app-wrap.main .app-container .app-header .items .tab {
+    padding: 0 12px;
+  }
+  .app-wrap.main .app-container .app-header .item .fa-facebook-square {
+    padding-left: 12px;
+  }
+  .app-wrap.main .app-container .app-main .app-inner {
+    width: 100%;
   }
 }
