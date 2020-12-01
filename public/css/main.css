@@ -29,7 +29,6 @@ html, body {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 20px solid white;
-  display: block;
   width: 0;
   position: absolute;
   opacity: 0;
