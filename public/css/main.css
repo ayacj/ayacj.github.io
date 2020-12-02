@@ -1,8 +1,20 @@
+@charset "UTF-8";
 html, body {
   background: #1c5f5c;
   background-size: cover;
   margin: 0;
   padding: 0;
+}
+
+.opacity {
+  filter: alpha(opacity=50);
+  /* IE */
+  -moz-opacity: 0.5;
+  /* 老版Mozilla */
+  -khtml-opacity: 0.5;
+  /* 老版Safari */
+  opacity: 0.5;
+  /* 支援opacity的瀏覽器*/
 }
 
 .app-wrap.main {
@@ -31,7 +43,7 @@ html, body {
   border-bottom: 20px solid white;
   width: 0;
   position: absolute;
-  display: none;
+  opacity: 0;
   top: 180%;
   left: 0;
   right: 0;
@@ -55,8 +67,8 @@ html, body {
   color: rgba(255, 255, 255, 0.548);
 }
 .app-wrap.main .app-container .app-header .items .tab.active:after {
-  display: block;
   top: 164%;
+  opacity: 1;
 }
 .app-wrap.main .app-container .app-header .items .tab.active .fa-home,
 .app-wrap.main .app-container .app-header .items .tab.active .fa-image,
