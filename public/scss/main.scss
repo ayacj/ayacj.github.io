@@ -28,6 +28,7 @@ html,body{
                         border-bottom: 20px solid rgb(255, 255, 255);
                         width: 0;
                         position: absolute;
+                        display: none;
                         opacity: 0;
                         top: 180%;
                         left: 0; right: 0; 
@@ -54,6 +55,7 @@ html,body{
 
                     &.active{
                         &:after{
+                            display: block;
                             opacity: 1;
                             top: 164%;
                         }
