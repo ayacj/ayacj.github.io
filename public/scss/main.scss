@@ -29,13 +29,14 @@ html,body{
                         width: 0;
                         position: absolute;
                         display: none;
-                        opacity: 0;
+                        // opacity: 0;
                         top: 180%;
                         left: 0; right: 0; 
                         margin: 0 auto;
                         transition: all .4s cubic-bezier(0.23, 1, 0.32, 1);
                         z-index:1;
                      }
+                    
                      .fas{
                         transition: all .4s cubic-bezier(0.23, 1, 0.32, 1);
                      }  
@@ -56,7 +57,7 @@ html,body{
                     &.active{
                         &:after{
                             display: block;
-                            opacity: 1;
+                            // opacity: 1;
                             top: 164%;
                         }
                         .fa-home,

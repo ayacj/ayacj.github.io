@@ -31,7 +31,7 @@ html, body {
   border-bottom: 20px solid white;
   width: 0;
   position: absolute;
-  opacity: 0;
+  display: none;
   top: 180%;
   left: 0;
   right: 0;
@@ -55,7 +55,7 @@ html, body {
   color: rgba(255, 255, 255, 0.548);
 }
 .app-wrap.main .app-container .app-header .items .tab.active:after {
-  opacity: 1;
+  display: block;
   top: 164%;
 }
 .app-wrap.main .app-container .app-header .items .tab.active .fa-home,
