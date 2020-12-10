@@ -96,7 +96,7 @@ html, body {
   display: table-cell;
   vertical-align: middle;
   /* 打印效果 */
-  /* 光标闪啊闪 */
+  /* 光標閃效果 */
 }
 .app-wrap.main .app-container #app-home .text h1 {
   font-size: 40px;

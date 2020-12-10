@@ -128,7 +128,7 @@ html,body{
                     70% { width: 7em; }
                     100% {width: 0; }
                 }
-                /* 光标闪啊闪 */
+                /* 光標閃效果 */
                 @keyframes blink-caret {
                     from, to { box-shadow: 1px 0 0 0 transparent; }
                     50% { box-shadow: 1px 0 0 0; }
