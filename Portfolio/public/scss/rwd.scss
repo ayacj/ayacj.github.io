@@ -14,3 +14,18 @@
         }
     }
 }
+
+@media screen and (max-width: 320px){
+    .app-wrap.main{
+        .app-container{
+            .sidebar{
+                width: 100%;
+                top:0;
+                &:hover{
+                    width: 100%;
+                    background-color: transparent; 
+                }
+            }
+        }
+    }
+}
